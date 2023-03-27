@@ -1,6 +1,9 @@
 body{
     font-family: 'Lora', serif;
 }
+.p-content{
+    padding: 0 10%;
+}
 .shadows-into-light{
     font-family: 'Shadows Into Light', cursive;
     font-size: 2.5rem;
