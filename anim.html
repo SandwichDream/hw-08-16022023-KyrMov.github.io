@@ -18,23 +18,24 @@
     <link rel="stylesheet" href="styles/anim.css">
   </head>
   <body>
-    <div class="BG BG1">
-      <header class="bg-success">
-        <div class="container-sm">
-          <div class="d-flex justify-content-between text-white">
-            <h1>
-              DesignCafé
-            </h1>
-            <div class="d-flex align-items-center">
-              <a href="#" class="text-decoration-none text-white px-4">DesignCaféとは</a>
-              <a href="#" class="text-decoration-none text-white px-4">メニュー</a>
-              <a href="#" class="text-decoration-none text-white px-4">お問い合わせ</a>
-              <a href="#" class="text-decoration-none text-white px-4">お知らせ</a>
-            </div>
+    <header class="navbar navbar-expand-lg navbar-dark bg-success">
+      <div class="container-fluid">
+        <h1 class="navbar-brand">DesignCafé</h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#">DesignCaféとは</a>
+            <a class="nav-link" href="#">メニュー</a>
+            <a class="nav-link" href="#">お問い合わせ</a>
+            <a class="nav-link" href="#">お知らせ</a>
           </div>
         </div>
-      </header>
-      <h1 class="d-flex justify-content-center align-items-center text-white grand_open shadows-into-light">
+      </div>
+    </header>
+    <div class="BG BG1 d-flex justify-content-center align-items-center">
+      <h1 class="d-flex text-white grand_open shadows-into-light">
         Grand Open
       </h1>
     </div>
@@ -45,19 +46,19 @@
       </p>
     </h1>
     <div class="row justify-content-center mt-5">
-      <div class="col-2 my-border img-hover">
+      <div class="col-2 my-border img-hover m-2">
         <div class="photo img1"></div>
         <div class="text d-flex justify-content-center">
           drink
         </div>
       </div>
-      <div class="col-2 my-border img-hover mx-5">
+      <div class="col-2 my-border img-hover m-2">
         <div class="photo img2"></div>
         <div class="text d-flex justify-content-center">
           cakes
         </div>
       </div>
-      <div class="col-2 my-border img-hover">
+      <div class="col-2 my-border img-hover m-2">
         <div class="photo img3"></div>
         <div class="text d-flex justify-content-center">
           foods

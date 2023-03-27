@@ -26,8 +26,6 @@ body{
 }
 .BG1{
     background-image: url("../images/coffee.png");
-    display: grid;
-    grid-template-rows: 55px 1fr;
 }
 .BG2{
     background-image: url("../images/cafe.png");
@@ -39,7 +37,7 @@ body{
     background-color: #fff;
     width: 1000px;
     display: grid;
-    grid-template: 1fr 1fr / 1fr 6fr;
+    grid-template: 1fr 1fr / 1fr 5fr;
 }
 footer{
     background-color: black;
@@ -49,7 +47,7 @@ footer{
     height: 346px;
     width: 346px;
     position: relative;
-    right: 17px;
+    right: 10px;
 }
 .img1{
     background-image: url('../images/drink.png');
@@ -101,6 +99,10 @@ footer{
     bottom: 140px;
 }
 
+.row{
+    --bs-gutter-x: 0;
+}
+
 @media(max-width: 1400px){
     .BG2{
         font-size: 12px;
@@ -112,5 +114,13 @@ footer{
 @media(max-width: 1000px){
     .BG{
         height: 300px;
+    }
+    .grand_open{
+        font-size: 3rem;
+        text-shadow: 2px 2px #00000075;
+    }
+    .frame{
+        width: 450px;
+        grid-template: 1fr 1fr 1fr 1fr / 1fr;
     }
 }
